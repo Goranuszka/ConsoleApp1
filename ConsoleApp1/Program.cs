@@ -14,8 +14,8 @@ else if (!(sex == "KOBIETA") && age < 18)
 {
    Console.WriteLine("NIEPELNOLETNI MEZCZYZNA");
 }
-else if (!(sex == "KOBIETA") && age > 18)
+else 
 {
-    Console.WriteLine(" ");
+    Console.WriteLine("Nie znaleziono");
 }
 
